@@ -1,0 +1,92 @@
+@import '../../theme/global.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home-container{
+    width: 100%;
+    height: 100%;
+    background-color: $bodyBackgroundColor;
+    position: absolute;
+    top: 12%;
+    bottom: 0;
+}
+.homeTitle{
+    text-align: center;
+    color: $textColor;
+    margin-top: 5%;
+    font-size: 300%;
+    animation: blinker 2.5s linear infinite;
+    @keyframes blinker {
+        50% {opacity: 0;}
+    }
+}
+.allPage{
+    width: 100%;
+    height: 100%;
+    background-color: $bodyBackgroundColor;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    top: 30%;
+}
+.aboutPage{
+    border-radius: 30px;
+    width: 25%;
+    background-color: $buttonBackgroundColor;
+    text-align: $textAlign;
+    height: 45%;
+    transform: translateY(0);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 0 50px $buttonBackgroundColor;
+        transition: all 0.5s ease-in-out;
+    }
+}
+.contactPage{
+    border-radius: 30px;
+    width: 25%;
+    background-color: $buttonBackgroundColor;
+    text-align: $textAlign;
+    height: 45%;
+    transform: translateY(0);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 0 50px $buttonBackgroundColor;
+        transition: all 0.5s ease-in-out;
+    }
+}
+.productPage{
+    border-radius: 30px;
+    width: 25%;
+    background-color: $buttonBackgroundColor;
+    text-align: $textAlign;
+    height: 45%;
+    transform: translateY(0);
+    box-shadow: none;
+    transition: all 0.5s ease-in-out;
+    &:hover{
+        transform: translateY(-20px);
+        box-shadow: 0 0 50px $buttonBackgroundColor;
+        transition: all 0.5s ease-in-out;
+    }
+}
+.pTitle{
+    color : $textColor;
+    font-size: 300%;
+    margin-top: 6%;
+    max-height: 35%;
+}
+.pText{
+    font-size: 80%;
+    color: $textColor;
+    text-align: center;
+    max-width: 80%;
+    margin-left:10%
+}

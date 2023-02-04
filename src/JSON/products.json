@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Birinci",
+        "id" : 1,
+        "name":"Atomik Alışkanlıklar",
+        "img" : "https://static.nadirkitap.com/fotograf/369983/29/Kitap_2022102502095536998310.jpg",
+        "money" : 60
+
+    },
+    {
+        "title": "İkinci",
+        "id":2,
+        "name":"Bazı insanlar neden daha başarılı olur?",
+        "img" : "https://i.dr.com.tr/cache/600x600-0/originals/0000000303463-1.jpg",
+        "money" : 50
+    },
+    {
+        "title":"üçüncü",
+        "id":3,
+        "name":"Homo Sapiens",
+        "img" : "https://img.kitapyurdu.com/v1/getImage/fn:11493352/wh:true/wi:800",
+        "money" : 80
+    }
+]
+

@@ -1,0 +1,80 @@
+@import '../../theme/global.scss';
+*{
+    font-family: 'Roboto',sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none ;
+    height: 100%;
+    
+}
+nav{
+    background: #9c32f2;
+    height: 12%;
+}
+label.logo{
+    color: #fff;
+    font-size: 2.2em;
+    line-height: 250%;
+    padding: 0 7%;
+    font-weight: 800;
+}
+nav ul{
+    float: right;
+    margin-right: 30%;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80%;
+    margin-top: 8%;
+    margin-left: 50px;
+}
+.ahref{
+    color: #fff;
+    font-size: 1.1em;
+    text-transform: uppercase;
+
+    &:hover{
+        background-color:#32ccf2;
+        transition: 0.5s;
+        
+    }
+    &:active{
+        background-color: #32ccf2;
+        transition: 0.5s;
+    }
+}
+@media (max-width:991px)
+{
+    label.logo{
+        font-size: 2em;
+        padding-left: 50px;
+    }
+    nav ul li .ahref{
+        font-size: 1em;
+    }
+    
+}
+@media (max-width:861px){
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background-color: #2b2e20;
+        top: 80px;
+        left : -100%;
+        text-align: center;
+        transition: all 0.5s;
+    }
+}
+.basketIcon{
+    position: absolute;
+    left: 92%;
+    top: -44%;
+    font-size: 200%;
+    color: #fff;
+    cursor: pointer;
+}
+

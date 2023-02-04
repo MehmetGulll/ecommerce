@@ -1,0 +1,96 @@
+@import '../../theme/global.scss';
+.container{
+    position: absolute;
+    top: 0%;
+    left: 55%;
+    width: 45%;
+    height: 100%;
+    background-color: $bodyBackgroundColor;
+    overflow: auto;
+    z-index: 1;
+}
+.showProducts{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-top: 5%;
+    position: relative;
+    height: 40%;
+}
+.cardContainer{
+    display: flex;
+    align-items: center;
+    height: 20%;
+    justify-content: space-between;
+}
+.myBasket{
+    font-size: 2rem;
+    line-height: 2rem;
+    color: $textColor;
+    position: absolute;
+    top: 5%;
+    text-decoration: underline;
+}
+.closeIcon{
+    font-size: 3rem;
+    position: absolute;
+    left: 90%;
+    cursor: pointer;
+}
+.amountEffect{
+    width: 50%;
+    margin-top: 0%;
+}
+.textColor{
+    color : $textColor;
+}
+h1{
+    margin-top: 15%;
+    margin-left: 5%;
+}
+.productPlus{
+    width: 15%;
+    height: 50%;
+}
+.productMinus{
+    width: 15%;
+    height: 50%;
+    margin-left: 12%;
+}
+.buy{
+    width: 20%;
+    height:15%;
+    position: absolute;
+    top: 88%;
+    left: -2.5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border :1px solid $bodyBackgroundColor;
+    border-radius: 12px;
+    background-color: $buttonBackgroundColor;
+    margin-left: 6%;
+    cursor: pointer;
+    line-height: 5%;
+    &:hover{
+        background-color:$buttonHoverColor;
+        transition: $hoverTransition;
+    }
+}
+.itemCount{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    font-size: 300%;
+}
+.addProducts{
+    display: flex;
+    flex-direction: column;
+}
+.totalProduct{
+    position: absolute;
+}
+.totalMoney{
+    position: absolute;
+    top: 15%;
+}

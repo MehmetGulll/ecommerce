@@ -1,0 +1,33 @@
+@import '../../theme/global.scss';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+}
+.about-container{
+    width: 100%;
+    min-height: 100%;
+    background-color:$bodyBackgroundColor;
+    position: absolute;
+    top: 12%;
+    overflow: hidden;
+}
+.about-page{
+    display: flex;
+    justify-content: space-between;
+    background-color: $bodyBackgroundColor;
+    height: 100%;
+}
+.aboutText{
+    width: 50%;
+    height: 100%;
+    margin-top: 2%;
+    font-size: 200%;
+}
+.aboutIcon{
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 20%;
+    font-size: 200%;
+}
